@@ -75,7 +75,7 @@ END {
     print "Total bins: ", max / bs
     print "Length of xs ", length(xs), " and total lines ", lines;
 
-    print_vertical_histogram(n_bins, bs, 80)
+    print_vertical_histogram(n_bins, bs, 60)
 }
 
 
