@@ -97,3 +97,4 @@ Displaying histogram:
   * cleanup awkward 0/1 indexes
   * support negative values
   * sort data?
+  * Support non even quantities of data
