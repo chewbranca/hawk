@@ -27,7 +27,6 @@ BEGIN {
 
 {
     if ($1 < max) {
-        bail = 1;
         error_and_bail("Input *must* be sorted....")
     }
 
