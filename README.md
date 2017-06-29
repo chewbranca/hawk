@@ -6,9 +6,7 @@ A simple command line histogram tool written in AWK.
 # Examples
 
 ```
-python -c "from __future__ import print_function; import numpy;
-[print(int(round(i))) for i in numpy.random.normal(loc=100.0, scale=10.0,
-size=1000)]" | sort -n | ./hawk
+python -c "from __future__ import print_function; import numpy; [print(int(round(i))) for i in numpy.random.normal(loc=100.0, scale=10.0, size=1000)]" | sort -n | ./hawk
 IQR  12
 Bin Size  2
 MIN||MAX::  66 || 134
