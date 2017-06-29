@@ -102,6 +102,7 @@ function error_and_bail(msg,    bail) {
     exit 1
 }
 
+
 # Use the Freedman-Diaconis rule to calculate the histogram bin size
 # https://en.wikipedia.org/wiki/Freedman–Diaconis_rule
 #
@@ -123,6 +124,7 @@ function ceiling(x) {
     }
 }
 
+
 function normalized(xs, n_xs) {
     len = length(xs)
     min = xs[0]
@@ -142,6 +144,7 @@ function normalized(xs, n_xs) {
         n_xs[i] = (xs[i] - min) / (max - min)
     }
 }
+
 
 function print_vertical_histogram(n_xs, bs, width) {
     len = length(n_xs)
